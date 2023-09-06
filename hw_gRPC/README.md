@@ -1,2 +1,2 @@
-# grpc_helloworld
-"grpc_helloworld" is a minimal GitHub project demonstrating gRPC's core concepts for remote communication using concise client-server code examples
+"grpc_helloworld" is a   project showcasing essential gRPC concepts through simple client-server code examples.
+For building from source in C++, follow: [BUILDING.md](https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/BUILDING.md).
