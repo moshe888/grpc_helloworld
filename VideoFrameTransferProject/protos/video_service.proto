@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package video;
+
+// The frame message should contain the encoded image data (for simplicity, we're assuming JPG format in this example).
+message Frame {
+    bytes data = 1;
+}
+
+// An empty message for methods that don't need to return data.
+message Empty {}
+
+// The VideoService definition.
+service VideoService {
+    // The SendFrame method receives a Frame and returns an Empty message.
+    rpc SendFrame(Frame) returns (Empty);
+}
